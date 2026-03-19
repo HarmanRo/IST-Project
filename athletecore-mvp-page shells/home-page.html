@@ -1,0 +1,76 @@
+export function HomePage() {
+  return (
+    <div className="min-h-screen">
+      {/* Hero section */}
+      <section className="bg-blue-600 text-white py-20">
+        <div className="mx-auto max-w-7xl px-4">
+          <h1 className="text-4xl font-bold mb-4">
+            Product/Brand Value Proposition
+          </h1>
+          <p className="text-lg mb-8">
+            One or two sentences explaining what you offer and who it’s for.
+          </p>
+          <div className="flex flex-wrap gap-4">
+            <button className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg">
+              Primary CTA (e.g., Shop Now)
+            </button>
+            <button className="px-6 py-3 border border-white rounded-lg">
+              Secondary CTA (e.g., Learn More)
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Key features / benefits */}
+      <section className="py-16 bg-gray-50">
+        <div className="mx-auto max-w-7xl px-4">
+          <h2 className="text-2xl font-bold mb-8">Why choose us</h2>
+          <div className="grid gap-8 md:grid-cols-3">
+            <div>
+              <h3 className="font-semibold mb-2">Feature 1</h3>
+              <p className="text-sm text-gray-600">
+                Short explanation of an important benefit.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">Feature 2</h3>
+              <p className="text-sm text-gray-600">
+                Short explanation of an important benefit.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">Feature 3</h3>
+              <p className="text-sm text-gray-600">
+                Short explanation of an important benefit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Teaser for products/services */}
+      <section className="py-16">
+        <div className="mx-auto max-w-7xl px-4">
+          <h2 className="text-2xl font-bold mb-6">Featured products/services</h2>
+          <div className="grid gap-6 md:grid-cols-3">
+            <div className="border rounded-lg p-4">Placeholder card 1</div>
+            <div className="border rounded-lg p-4">Placeholder card 2</div>
+            <div className="border rounded-lg p-4">Placeholder card 3</div>
+          </div>
+        </div>
+      </section>
+
+      {/* Simple CTA strip */}
+      <section className="py-12 bg-blue-700 text-white">
+        <div className="mx-auto max-w-7xl px-4 text-center">
+          <h2 className="text-2xl font-bold mb-4">
+            Ready to get started?
+          </h2>
+          <button className="px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg">
+            Primary CTA
+          </button>
+        </div>
+      </section>
+    </div>
+  );
+}
